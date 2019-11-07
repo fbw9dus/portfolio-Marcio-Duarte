@@ -1,0 +1,55 @@
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #div-main-container {
+        margin: 10px 0 0 0;
+    }
+    
+    .sec-cont {
+        margin-top: -1px;
+        width: 100%;
+        border: 1px solid rgb(202, 198, 198);
+    }
+    
+    #img-photo {
+        height: 180px;
+        width: auto;
+        border-radius: 50%;
+        background-color: rgb(233, 244, 250);
+    }
+    /* Skills section settings */
+    
+    #div-skills {
+        /* padding: 25px 25px 0 25px; */
+    }
+    
+    #div-skills label {}
+    /* *** Progress bars settings to show the skill levels *** */
+    
+    progress {
+        display: block;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        height: 10px;
+        width: 100%;
+        margin: 0 0px 15px 0px;
+    }
+    /* Progress bar container */
+    
+    progress::-webkit-progress-bar {
+        background-color: white;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 50px;
+    }
+    /* progress bar value */
+    
+    progress::-webkit-progress-value {
+        background-color: rgb(41, 177, 177);
+        border: rgb(184, 184, 184);
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+        border-radius: 50px;
+    }
