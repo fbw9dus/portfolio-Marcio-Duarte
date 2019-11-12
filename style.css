@@ -85,7 +85,7 @@ a {
 
 #div-main-container :nth-child(2) p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(36, 36, 36);
     margin-bottom: 0%;
 }
@@ -109,8 +109,25 @@ a {
     height: 200px;
 }
 
+#div-main-container :nth-child(3) p {
+    margin-top: 0%;
+    padding-bottom: 80%;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+#div-main-container :nth-child(3) p span {
+    color: rgb(112, 112, 112);
+}
+
 
 /* *** Skills section settings *** */
+
+#div-main-container :nth-child(4) label {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
 
 
 /* *** Progress bars settings to show the skill levels *** */
@@ -138,9 +155,25 @@ progress::-webkit-progress-bar {
 /* progress bar value */
 
 progress::-webkit-progress-value {
-    background-color: rgb(41, 177, 177);
+    background-color: rgb(37, 155, 155);
     border: rgb(184, 184, 184);
     border-width: 0px 1px 0px 0px;
     border-style: solid;
     border-radius: 50px;
+}
+
+
+/* *** Kontakten section settings *** */
+
+#div-main-container :nth-child(5) a {
+    display: block;
+    color: rgb(37, 155, 155);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#div-main-container :nth-child(5) a span {
+    color: rgb(95, 94, 94);
+    font-size: 25px;
+    margin-bottom: 10px;
 }
