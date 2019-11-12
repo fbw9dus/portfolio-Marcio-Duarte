@@ -1,53 +1,146 @@
-    body {
-        margin: 0%;
-        padding: 0%;
-    }
-    
-    #div-main-container {
-        margin: 10px 0 0 0;
-    }
-    
-    .sec-cont {
-        margin-top: -1px;
-        width: 100%;
-        border: 1px solid rgb(202, 198, 198);
-    }
-    
-    #img-photo {
-        height: 180px;
-        width: auto;
-        border-radius: 50%;
-        background-color: rgb(233, 244, 250);
-    }
-    /* Skills section settings */
-    
-    #div-skills {
-        /* padding: 25px 25px 0 25px; */
-    }
-    /* *** Progress bars settings to show the skill levels *** */
-    
-    progress {
-        display: block;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        height: 10px;
-        width: 100%;
-        margin: 0 0px 15px 0px;
-    }
-    /* Progress bar container */
-    
-    progress::-webkit-progress-bar {
-        background-color: white;
-        border: 1px solid rgb(184, 184, 184);
-        border-radius: 50px;
-    }
-    /* progress bar value */
-    
-    progress::-webkit-progress-value {
-        background-color: rgb(41, 177, 177);
-        border: rgb(184, 184, 184);
-        border-width: 0px 1px 0px 0px;
-        border-style: solid;
-        border-radius: 50px;
-    }
+/* Global elements properties */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+}
+
+#div-main-container {
+    padding: 50px 0% 0% 0%;
+    text-align: center;
+}
+
+h1 {
+    margin: 35px 0 5px 0;
+    font-size: 34px;
+}
+
+.section-cont h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2,
+h3 {
+    color: rgb(78, 76, 76);
+}
+
+h3 {
+    margin-top: 0%;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* To select all sections less the first section */
+
+#div-main-container .section-cont:not(:first-child) {
+    padding: 0 25px 0 25px;
+    text-align: left;
+}
+
+.section-cont {
+    border: 1px solid rgb(202, 198, 198);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.section-cont *:first-child {
+    margin-top: 30px;
+}
+
+
+/* *** First section settings *** */
+
+#img-photo {
+    height: 180px;
+    width: auto;
+    border-radius: 50%;
+    background-color: rgb(233, 244, 250);
+    box-shadow: 0px 0px 15px black;
+}
+
+.a-menu {
+    display: block;
+    color: white;
+    background-color: rgb(185, 185, 185);
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin: 2px 1px 0 1px;
+    text-align: left;
+    text-indent: 25px;
+}
+
+
+/* *** Lebenslauf section *** */
+
+#div-main-container :nth-child(2) p {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 0%;
+}
+
+#div-main-container :nth-child(2) p:nth-child(2) {
+    margin-top: 0%;
+    padding-bottom: 80%;
+    color: rgb(112, 112, 112);
+}
+
+#div-main-container :nth-child(2) a {
+    color: rgb(37, 155, 155);
+    font-size: 20px;
+}
+
+
+/* *** Portfolio section *** */
+
+#img-portfolio {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* *** Skills section settings *** */
+
+
+/* *** Progress bars settings to show the skill levels *** */
+
+progress {
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 100%;
+    margin: 0 0px 15px 0px;
+}
+
+
+/* Progress bar container */
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 50px;
+}
+
+
+/* progress bar value */
+
+progress::-webkit-progress-value {
+    background-color: rgb(41, 177, 177);
+    border: rgb(184, 184, 184);
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-radius: 50px;
+}
