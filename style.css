@@ -139,6 +139,10 @@ a {
 
 /* *** Progress bars settings to show the skill levels *** */
 
+h2:last-of-type {
+    padding-top: 30px;
+}
+
 progress {
     display: block;
     -webkit-appearance: none;
